@@ -25,6 +25,7 @@ class HomeMenuAdapter(
 
     private val items: List<MenuItem> = listOf(
             MenuItem(R.id.whats_new, WhatsNewViewHolder.LAYOUT_ID, context.getString(R.string.menu_whats_new)),
+            MenuItem(R.id.open_new_tab, MenuItemViewHolder.LAYOUT_ID, context.getString(R.string.menu_open_new_tab)),
             MenuItem(R.id.help, MenuItemViewHolder.LAYOUT_ID, context.getString(R.string.menu_help)),
             MenuItem(R.id.settings, MenuItemViewHolder.LAYOUT_ID, context.getString(R.string.menu_settings))
     )
